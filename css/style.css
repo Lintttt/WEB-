@@ -1,0 +1,468 @@
+*{
+	margin: 0px;
+}
+
+body{
+	background-color:#DCDCDC;;
+}
+
+.nav1{
+	width: 100%;
+	height: 60px;
+	background-color:white;
+}
+
+
+.nav1_title{
+	width: 10%;
+	height: 50px;
+	font-family:  roman;
+	font-style: italic;
+	font-size: 30px;
+	color:#000000;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5px;
+}
+
+.nav1_search{
+    width: 30%;
+    height: 40px;
+	margin-top: 12px;
+	margin-left: 5%;
+	float: left;
+}
+.nav1_submit{
+	height: 40px;
+	width: 3%;
+	margin-top: 12px;
+	padding-left: 0px;
+    float:left;
+}
+
+.nav1_name{
+	font-family:  roman;
+	font-style: italic;
+	font-size: 30px;
+	height: 50px;
+	float:right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.nav1_img{
+	margin-top: 15px;
+	margin-left:10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	float: right;
+	margin-right: 30px;
+}
+
+.nav1_btn{
+	width: 40px;
+	height: 40px;
+	margin-top: 12px;
+	padding-right: 10px;
+	float: right;
+}
+
+
+.shot{
+	width: 400px;
+	height: 300px;
+}
+.nav2{
+	width: 100%;
+	height: 50px;
+	background-color:#F5F5F5;
+	float: left;
+	margin-top: -10px;
+ }
+    
+.hidebtn{
+	float: left;
+	margin-left: 20px;
+	
+}
+.nav2_hide{
+	font-family: "微软雅黑";
+	width: auto;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+}
+.mybtn {
+	font-family: "微软雅黑";
+	color: black;
+	background-color:white;
+	width: 100%;
+	height: 50px;
+	border: solid 1px;
+	
+}
+.nav2_nav{
+	float: left;
+	margin-left: 35%;
+}
+
+.myli{
+	font-family: "微软雅黑";
+	color: #000000;
+	font-size: 20px;
+}
+
+.myimg{
+	width: 60%;
+	margin-left: 20%;
+	height: 350px;
+	margin-top: 0px;
+}
+
+
+.img1{
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	width: 75%;
+	height: 350px;
+    float: right;
+    background-repeat: repeat;
+    background-color: white;
+    margin: 0;
+}
+
+.img2{
+	background-image: url(../img/25143746720879.jpg);
+	background-size: cover;
+	width: 25%;
+	height: 350px;
+	float: left;
+	background-repeat: repeat;
+	background-color: white;
+	margin: 0;
+}
+
+.nav3{
+	border: solid 1px;
+	background-color:white;
+	width: 60%;
+	height: 50px;
+	margin-left: 20%;
+	
+}
+
+.container{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.mydiv{
+	width: 50%;
+	border: solid 1px;
+	margin-top: 20px;
+	margin-left: 25%;
+	background-color: white;
+	float: left;
+}
+.intro{
+	height: 50px;
+	width: 100%;
+	margin-left: 10px;
+	font-family: "微软雅黑"; 
+	float: left;
+}
+.head{
+	height: 40px;
+	width: 30%px;
+	margin-top: 10px;
+	float: left;
+}
+.head-img{
+	height: 40px;
+	width: 30%px;
+	background-size: cover;
+	float: left;
+	
+}
+.body{
+	height: 40px;
+	width: 60%px;
+	font-family: "微软雅黑"; 
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+}
+.mess{
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 5%;
+	float: left;
+	
+}
+.mess-img{
+	width: 100%;
+	float: left;
+}
+.mess-video{
+	width: 100%;
+	float: left;
+}
+.threebtn{
+	width: 90%;
+	margin-top: 10px;	
+	margin-left: 5%;
+	float: left;
+}
+
+.mywell{
+	width: 90%;
+	margin-top: 10px;	
+	margin-left: 5%;
+	float: left;
+}
+.media-object{
+	height: 40px;
+	width: 30%px;
+	background-size: cover;
+	float: left;
+}
+.main_box {
+    position: absolute; top:50%; left:50%; margin-top:-260px; margin-left: -300px; padding: 30px; width:600px; height:460px;
+	background:url(../images/1.png);
+    border-radius: 10px;
+}
+.main_box .setting {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 10px;
+	height: 10px;
+}
+.main_box .setting a {
+	color: #FF6600;
+}
+.main_box .setting a:hover {
+	color: #555;
+}
+.login_logo {
+	margin-bottom: 40px;
+	height: 45px;
+	text-align: center;
+}
+.login_logo img {
+	height: 45px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.login_msg {
+	text-align: center;
+	font-size: 16px;
+}
+.login_form {
+	padding-top: 20px;
+	font-size: 16px;
+}
+ .form-control {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	width: auto;
+	font-size: 18px;
+}
+
+ .form-control.x319 {
+	width: 319px;
+}
+ .form-control.x164 {
+	width: 164px;
+}
+.mycontrol{
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+ .form-group {
+	margin-bottom: 20px;
+}
+ .form-group label.t {
+	width: 120px;
+	text-align: right;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: black;
+}
+ .form-group.space {
+	padding-top: 15px;
+	border-top: 1px #FFF dotted;
+}
+ .form-group img {
+	margin-top: 1px;
+	height: 32px;
+	vertical-align: top;
+}
+.loginbox{
+	background-color:hsla(360,80%,100%,0.3);
+	border-radius: 10px;
+}
+.zhucebox{
+	background-color:hsla(360,80%,100%,0.3);
+	border-radius: 10px;
+}
+
+
+
+.pllist{
+	width: 100%;
+	float: left;
+}
+
+.pl{
+	margin-top: 10px;
+	width: 100%;
+	float: left;
+}
+.speak{
+	margin-top: 10px;
+}
+.speak_head img{
+	margin-top: 10px;
+	width: 10%;
+	height: 40px;
+	float: left;
+}
+.speak_body{
+	margin-top: 10px;
+	
+	float: left;
+	width: 90%;
+	height: 80px;
+}
+.mytext{
+	width: 100%;
+	height:80px ;
+	float: left;
+}
+
+.intro_self{
+	width: 50%;
+	margin-left: 25%;
+	border-top-style:solid;
+	border-top-color: blue;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+.intro_edu{
+	width: 50%;
+	margin-left: 25%;
+	border-top-style:solid;
+	border-top-color: red;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+.intro_xinxi{
+	width: 50%;
+	margin-left: 25%;
+	border-top-style:solid;
+	border-top-color:#4CAE4C;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+.intro_job{
+	width: 50%;
+	margin-left: 25%;
+	border-top-style:solid;
+	border-top-color:slateblue;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+.intro_p{
+	font-family: verdana;
+	color: gray;
+}
+
+.find{
+	width: 20%;
+	margin-top: 30px;
+	float: left;
+}
+.look{
+	width: 75%;
+	margin-left: 5%;
+	margin-top: 10px;
+	float: left;
+}
+.about_mes{
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 100px;
+	height: 400px;
+}
+.back{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: darkgray;
+	-moz-opacity: 0.6;
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+.tanchu{
+	 display: none;
+	 position: absolute;
+	 top: 35%;
+	 left: 35%;
+	 width: 30%;
+	 height: 30%;
+	 padding: 20px;
+	 background-color: whitesmoke;
+	 overflow: auto;
+}
+.tanchu_pic{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.tanchu_img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px; 
+}
+.tanchu_intro{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.tanchu_1{
+	width: 100%;
+	height: 70%;
+	background-color: gainsboro;
+}
+
+.tanchu_2{
+	width: 100%;
+	height: 30%;
+	background-color: darkgray;
+}
+.list_left{
+	width: 50%;
+	float: left;
+
+}
+.list_right{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+
+}

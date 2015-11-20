@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>微信网页版</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 引入 Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- 引入 CSS -->
+		<link  href="css/style.css" rel="stylesheet">
+		<!--jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+	    <script src="js/jquery-1.9.1.min.js "></script>
+	    <!-- 包括所有已编译的插件 -->
+	    <script src="js/bootstrap.min.js "></script>
+	    <script type="text/javascript" src="js/nav.js" ></script>
+	</head>
+	<body>
+		
+        	<!-- -->
+        	
+        	<div class="nav1">
+				<p class="nav1_title"> weixin </p>
+				
+				<input type="text " class=" nav1_search   " placeholder="  search......">
+			    <button type="submit" class="btn btn-default nav1_submit "> <span class="glyphicon glyphicon-search" ></span></button>
+			    
+			    <img src="img/16225908908473.jpg" class="nav1_img" alt="" />
+	        	<button type="button" class="btn btn-link nav1_btn" 
+	        		title="<h3 style='text-align: center'>通知</h3>"  data-container="body" data-toggle="popover" data-placement="bottom" 
+	        		data-content="<div class='shot'></div>"> 
+			      <span class="glyphicon glyphicon-envelope"></span>
+	        	</button>
+	        	<p class="nav1_name">Lin</p>
+        	</div>
+        	
+        	<div class="nav2">
+        		<div class="hidebtn">
+        		<button class="btn  mybtn"><span class="glyphicon glyphicon-th" ></span>个人资料</button>
+        		</div>
+        		<div class="nav2_hide">
+        			<ul class="list-group" >
+					  <li class="list-group-item mybtn"><a href="home.html">主页</a></li>
+					   <li class="list-group-item mybtn"><a href="intro.html">个人资料</a></li>
+					   <li class="list-group-item mybtn"><a href="friends.html">人脉</a></li>
+					   <li class="list-group-item mybtn"><a href="hostlist_today.html">点赞榜</a></li>
+					   <li class="list-group-item mybtn"><a href="about.html">关于</a></li>
+				       
+					</ul>   
+				</div>
+				
+        	</div>
+     
+		<div class="myimg">
+        		<div class="img1">
+        			<button class="btn btn-link" style="margin-left: 80%;margin-top: 300px;">更改背景</button>
+        		</div>
+        		<div class="img2">
+        			<button class="btn btn-link" style="margin-left: 60%;margin-top: 300px;">更改封面</button>
+        		</div>
+        </div>
+        
+        
+        <div class="nav3">
+        	<ul class="nav nav-tabs" style="margin-left: 35%;">
+			  <li  class=" myli"><a href="intro.html">简介</a></li>
+			  <li class=" myli"><a href="self.html">分享 </a></li>
+			   <li class="active myli"><a href="collect.html">收藏</a></li>
+			  
+			</ul>
+        	 
+        </div>
+		
+		
+		<div class="container">
+			<div class="" style="width: 50%;height: 200px;border: solid 1px;margin-left: 25%;">
+				DIV
+			</div>
+			<!--一个DIV内容-->
+			<div class="mydiv" >
+	
+				<!--发布人 -->
+				<div class="intro">
+					<div class="head">
+						<img class="head-img" src="img/12.jpg" />
+					</div>
+					<div class="body">
+						<b>Lin</b><br\>
+						<p>分享于--2015年11月1日</p>
+					</div>
+				</div>
+				<!--内容 -->
+				<div class="mess">
+					<p>（纯粹乱打）阿方社会你加分 啊发发假发门啊仿啊房间爱耳机哦听过蛮王 iuw90 聚合物9w钱塘江9wit,owmtw0qw,j瑞文吗我</p>
+					 <img class="mess-img" src="img/u=2262266530,3629304115&fm=21&gp=0.jpg" />
+					 
+				</div>
+				<!--点赞，收藏与转发 -->
+				<div class="threebtn">
+					<button class="btn btn-default dianzan" onclick="dfun(this)">+<span id="num">0</span><span class="glyphicon glyphicon-heart-empty" id="gbtn"></span></button>
+					<button class="btn btn-default" >转发<span class="glyphicon glyphicon-share" ></span></button>
+					<button class="btn btn-default"onclick="sfun(this)" >收藏<span class="glyphicon glyphicon-star-empty"id="gsbtn" ></span></button>
+				</div>
+				<!-- 评论 -->
+				<div class="well mywell">
+					<!--评论列表-->
+					<div >
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+					</div>
+					<div class="par">
+					<div class="pl">
+					<input type="text" class="mycontrol"onclick="speakfun(this)" placeholder="发表评论......" style="margin-top: 10px;"/>
+					</div>
+					
+					<div class="speak">
+						<!--发布人 -->
+						<div class="speak_head">
+								<img class="head-img" src="img/12.jpg" />
+						</div>
+
+						<div class="speak_body">
+							<input type="text" class="mytext" />
+						</div>
+						
+						<div class="speak_ben">
+							<button type="button" id=" " class="btn btn-primary  "  style="margin-left: 10%;margin-top: 5px;">&nbsp;发&nbsp;布&nbsp </button>
+							 <button type="button" class="btn btn-default quxiao " onclick="speakquxiao(this)" style="margin-left: 5%;margin-top: 5px;">&nbsp;取&nbsp;消&nbsp </button>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="mydiv" >
+	
+				<!--发布人 -->
+				<div class="intro">
+					<div class="head">
+						<img class="head-img" src="img/12.jpg" />
+					</div>
+					<div class="body">
+						<b>Lin</b><br\>
+						<p>分享于--2015年11月1日</p>
+					</div>
+				</div>
+				<!--内容 -->
+				<div class="mess">
+					<p>（纯粹乱打）阿方社会你加分 啊发发假发门啊仿啊房间爱耳机哦听过蛮王 iuw90 聚合物9w钱塘江9wit,owmtw0qw,j瑞文吗我</p>
+					 <img class="mess-img" src="img/u=2262266530,3629304115&fm=21&gp=0.jpg" />
+					 
+				</div>
+				<!--点赞，收藏与转发 -->
+				<div class="threebtn">
+					<button class="btn btn-default dianzan"onclick="dfun(this)"> +<span id="num">0</span><span class="glyphicon glyphicon-heart-empty" id="gbtn"></span></button>
+					<button class="btn btn-default" >转发<span class="glyphicon glyphicon-share" ></span></button>
+					<button class="btn btn-default"onclick="sfun(this)" >收藏<span class="glyphicon glyphicon-star-empty" id="gsbtn"></span></button>
+				</div>
+				<!-- 评论 -->
+				<div class="well mywell">
+					<!--评论列表-->
+					<div >
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+					</div>
+					<div class="par">
+					<div class="pl">
+					<input type="text" class="mycontrol"onclick="speakfun(this)" placeholder="发表评论......" style="margin-top: 10px;"/>
+					</div>
+					
+					<div class="speak">
+						<!--发布人 -->
+						<div class="speak_head">
+								<img class="head-img" src="img/12.jpg" />
+						</div>
+
+						<div class="speak_body">
+							<input type="text" class="mytext" />
+						</div>
+						
+						<div class="speak_ben">
+							<button type="button" id=" " class="btn btn-primary  "  style="margin-left: 10%;margin-top: 5px;">&nbsp;发&nbsp;布&nbsp </button>
+							 <button type="button" class="btn btn-default quxiao " onclick="speakquxiao(this)" style="margin-left: 5%;margin-top: 5px;">&nbsp;取&nbsp;消&nbsp </button>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="mydiv" >
+	
+				<!--发布人 -->
+				<div class="intro">
+					<div class="head">
+						<img class="head-img" src="img/12.jpg" />
+					</div>
+					<div class="body">
+						<b>Lin</b><br\>
+						<p>分享于--2015年11月1日</p>
+					</div>
+				</div>
+				<!--内容 -->
+				<div class="mess">
+					<p>（纯粹乱打）阿方社会你加分 啊发发假发门啊仿啊房间爱耳机哦听过蛮王 iuw90 聚合物9w钱塘江9wit,owmtw0qw,j瑞文吗我</p>
+					 <img class="mess-img" src="img/u=2262266530,3629304115&fm=21&gp=0.jpg" />
+					 
+				</div>
+				<!--点赞，收藏与转发 -->
+				<div class="threebtn">
+					<button class="btn btn-default dianzan" onclick="dfun(this)"> +<span id="num">0</span><span class="glyphicon glyphicon-heart-empty" id="gbtn"></span></button>
+					<button class="btn btn-default" id="zhuan" onclick="">转发<span class="glyphicon glyphicon-share" ></span></button>
+					<button class="btn btn-default" id="cang" onclick="sfun(this)">收藏<span class="glyphicon glyphicon-star-empty" id="gsbtn" ></span></button>
+				</div>
+				<!-- 评论 -->
+				<div class="well mywell">
+					<!--评论列表-->
+					<div class="pllist">
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+						<!--一个评论人-->
+					    <div class="media">
+						    <div class="media-left media-middle">
+						    <a href="#">
+						      <img class="media-object" src="img/17112555127279.jpg" alt="...">
+						    </a>
+						    </div>
+						    <div class="media-body">
+						    <p class="media-heading">Middle aligned media</p>
+						    ...
+						    </div>
+						</div>
+					</div>
+					
+				<div class="par">
+					<div class="pl">
+					<input type="text" class="mycontrol"onclick="speakfun(this)" placeholder="发表评论......" style="margin-top: 10px;"/>
+					</div>
+					
+					<div class="speak">
+						<!--发布人 -->
+						<div class="speak_head">
+								<img class="head-img" src="img/12.jpg" />
+						</div>
+
+						<div class="speak_body">
+							<input type="text" class="mytext" />
+						</div>
+						
+						<div class="speak_ben">
+							<button type="button" id=" " class="btn btn-primary  "  style="margin-left: 10%;margin-top: 5px;">&nbsp;发&nbsp;布&nbsp </button>
+							 <button type="button" class="btn btn-default quxiao " onclick="speakquxiao(this)" style="margin-left: 5%;margin-top: 5px;">&nbsp;取&nbsp;消&nbsp </button>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		 <!--遮罩层与弹出层-->
+        	<div class="back"></div>
+        	<div class="tanchu">
+        		<div class="tanchu_1">
+        			<div class="tanchu_pic">
+						    <a href="intro.html">
+						      <img class="tanchu_img" src="img/16225908908473.jpg" alt="...">
+						    </a>
+					</div>
+					
+					<div class="tanchu_intro">
+						    <h3 id=name><b>Lin</b></h3>
+						    <h4 id="youxiang">1364498165@qq.com</h4>
+						    <a href="intro.html"><button class="btn btn-lg btn-link">我的账户</button></a>
+					</div>
+					
+        		</div>
+        		
+        		<div class="tanchu_2">
+        			<button class="btn btn-lg btn-success tanchu_qhbtn" style="margin-left: 10px;margin-top: 10px; ">切换账户</button>
+        			<button class="btn btn-lg btn-default tanchu_btn" style="margin-right: 10px;margin-top: 10px;float: right;">返回界面</button>
+        		</div>
+        	</div>
+		
+		
+		<script type="text/javascript">
+			
+			//评论框
+			function speakquxiao(obj){
+				 //quxiao的父类speak隐藏
+				var speak_btndiv=$(obj).parent();
+				var speakdiv=$(speak_btndiv).parent();
+				$(speakdiv).hide();
+				//speak父类par
+				var parentdiv=$(speakdiv).parent();
+				//par后代div中类名为pl显示
+				var pldiv=$(parentdiv).children("div .pl");
+				$(pldiv).show();
+			};
+			function speakfun(obj){
+				//mycontrol的父类pl隐藏
+				var pldiv=$(obj).parent();
+				$(pldiv).hide();
+				//pl父类par
+				var parentdiv=$(pldiv).parent();
+				//par后代div中类名为speak显示
+				var speakdiv=$(parentdiv).children("div .speak");
+				$(speakdiv).show();
+			}
+		</script>
+		<script type="text/javascript">
+		//点赞按钮
+		  
+			 function dfun(obj){
+			 	var opw=$(obj).children("span").hasClass("glyphicon-heart-empty");
+			
+			 	if(opw)
+			{
+			 	var newnum=$(obj).children("span#num");
+			 	var count=parseInt($(newnum).text());
+			 	count++;
+			 	$(newnum).html(count);
+		    	
+		    	var oldgbtn=$(obj).children("span#gbtn");
+		    	var newgbtn=$("<span class='glyphicon glyphicon-heart' id='ngbtn'>"+"</span>");
+		    	$(oldgbtn).before(newgbtn);
+		    	$(oldgbtn).remove();
+		    }
+			 	else{
+			 	var newnum=$(obj).children("span#num");
+			 	var count=parseInt($(newnum).text());
+			 	count--;
+			 	$(newnum).html(count);
+		    	
+		    	var oldgbtn=$(obj).children("span#ngbtn");
+		    	var newgbtn=$("<span class='glyphicon glyphicon-heart-empty' id='gbtn'>"+"</span>");
+		    	$(oldgbtn).before(newgbtn);
+		    	$(oldgbtn).remove();
+			 	}
+		    };
+		 
+		</script>
+		
+		<script type="text/javascript">
+		//收藏按钮
+			
+			 function sfun(obj){
+			 	var opwl=$(obj).children("span").hasClass("glyphicon-star-empty");
+			 	
+			 	if(opwl)
+			{
+		    	var oldgbtn=$(obj).children("span#gsbtn");
+		    	var newgbtn=$("<span class='glyphicon glyphicon-star ' id='ngsbtn'>"+"</span>");
+		    	$(oldgbtn).before(newgbtn);
+		    	$(oldgbtn).remove();
+		
+		    }
+			 	else{
+		    	var oldgbtn=$(obj).children("span#ngsbtn");
+		    	var newgbtn=$("<span class='glyphicon glyphicon-star-empty' id='gsbtn'>"+"</span>");
+		    	$(oldgbtn).before(newgbtn);
+		    	$(oldgbtn).remove();
+			 	}
+		    };
+		
+		</script>
+		
+	</body>
+		
+</html>
